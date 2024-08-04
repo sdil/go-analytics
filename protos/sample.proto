@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package samplepb;
+
+option go_package = "./samplepb";
+
+message Ping {
+    string id = 1;
+}
+
+message Pong {
+    string reply = 2;
+}
